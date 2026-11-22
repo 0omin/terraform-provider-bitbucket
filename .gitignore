@@ -1,0 +1,16 @@
+# Build output
+/terraform-provider-bitbucket
+/dist/
+
+# Terraform working files
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Files that may hold credentials
+*.tfvars
+.env
+
+# Local tooling
+.claude/
+.DS_Store
